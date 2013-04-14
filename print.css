@@ -1,0 +1,27 @@
+/* if we have media="print" in the html, we don't *need* this selector */
+@page  {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  size: landscape;/* works in chrome */
+}
+@media print {
+  .screen {
+    display: none;
+  }
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  /* Buggy even in chrome */
+  /*
+    .page.landscape {
+      -webkit-transform:          rotate(-90deg);
+      -webkit-transform-origin:   0in 0in;
+    }
+    .page.us.landscape {
+      margin:                     11in 0n;
+    }
+    */
+}

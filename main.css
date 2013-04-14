@@ -1,0 +1,113 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  vertical-align: baseline;
+}
+html,
+body,
+div {
+  font-size: 100%;
+  font: inherit;
+}
+.page {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+.page.landscape {
+  position: relative;
+}
+.page.us {
+  width: 8.5in;
+  height: 11in;
+}
+.page.us.landscape {
+  /*margin:             11in 0;*/
+
+  width: 11in;
+  height: 8.5in;
+}
+.page.a4 {
+  width: 195mm;
+  height: 270mm;
+}
+.page.a4.landscape {
+  width: 270mm;
+  height: 195mm;
+}
+.outer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* 11 wide, 5 each half, 4.5in non-margin */
+
+  margin: 0.5in;
+  /* 0.75in is MSIE default */
+
+  margin-right: 6in;
+  /* 3 0.5in margins, 1 4.5in half page */
+
+  /* 11 wide, 5.5 each half, 5in non-margin */
+
+}
+/*
+.outer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border: 1px solid black;
+  background-color: #cfc;
+}
+.inner {
+  position: absolute;
+  border-top: 2px solid red;
+  border-right: 2px dotted green;
+  border-bottom: 2px dashed blue;
+  border-left: 2px solid black;
+  top: 30px;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  background-color: #fcf;
+}
+*/
+.page h1 {
+  text-align: center;
+}
+.inner {
+  padding-top: 0.5in;
+}
+.square-container {
+  width: 4.4in;
+  padding: 0;
+  margin: auto;
+  border: 1px solid black;
+}
+.square {
+  float: left;
+  padding: 2px;
+  margin: 0px;
+  border: 1px solid black;
+  height: 0.84in;
+  width: 0.84in;
+  display: table;
+}
+.square p {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
