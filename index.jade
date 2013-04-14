@@ -1,0 +1,54 @@
+!!! 5
+html
+  head
+    title Fast & Testimony Bingo
+    link(rel="stylesheet", href="main.css")
+    link(rel="stylesheet", href="screen.css", media="screen")
+    link(rel="stylesheet", href="print.css", media="print")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js")
+    script(src="pakmanaged.js")
+  body
+
+    .header.screen
+      form.js-create-bingo-sheets
+        h1 Number of Pages 
+          input.js-number-pages(type="number", step="1", min="1", max="500", value="5")
+        input(type="button", value="Print", onclick="window.print()")
+        span (set Margins to None when printing)
+          //-input(type="submit", value="Create Bingo Sheets")
+
+    .js-pages
+
+      .js-page.page.us.landscape
+        .outer
+          .inner
+            .js-square-container
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit
+              .js-square.square Lorem ipsem delor set amit

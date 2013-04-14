@@ -1,0 +1,30 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com)",
+  "name": "fast-and-testimony-bingo",
+  "description": "Generates n bingo sheets with playful fast and testimony meeting clichés",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolaj86/fast-and-testimony-bingo.git"
+  },
+  "main": "lib/browser.js",
+  "scripts": {
+    "test": "run-tests"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "browserDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jade": "~0.5.0",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt": "~0.4.1",
+    "grunt-pakmanager": "~0.2.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
