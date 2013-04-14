@@ -180,7 +180,7 @@ var global = Function("return this;")();
   (function () {
       "use strict";
     
-      var clichés =  require('fast-and-testimony-bingo/lib/cliches')
+      var cliches =  require('fast-and-testimony-bingo/lib/cliches')
         , shuffle =  require('fast-and-testimony-bingo/lib/fisher-yates')
         , free = "I know the Gospel is true (FREE)"
         , max = 25
@@ -190,14 +190,14 @@ var global = Function("return this;")();
         var i = 0
           ;
     
-        clichés = shuffle(clichés);
+        cliches = shuffle(cliches);
     
         for (i; i < max; i += 1) {
           if (12 === i) {
             addSquare(free);
             continue;
           }
-          addSquare(clichés[i], i);
+          addSquare(cliches[i], i);
         }
       }
     
