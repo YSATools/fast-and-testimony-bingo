@@ -3,7 +3,7 @@ Want to [Print your own unique Fast & Testimony Bingo sheets](http://coolaj86.gi
 
 This is the site with the code, not the app. To go to the app, click the link above.
 
-Code for [Fast and Testimony Bingo](http://coolaj86.github.com/fast-and-testimony-bingo)
+Code for [Fast and Testimony Bingo](http://ysatools.github.io/fast-and-testimony-bingo)
 ========================
 
 Generates n bingo sheets with playful fast and testimony meeting clichés (not sarcastic or snarky).
